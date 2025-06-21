@@ -1,0 +1,21 @@
+{
+  "name": "obsidian-weblog",
+  "version": "1.0.0",
+  "description": "Obsidian-like weblog with backlinks and graph view",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "node src/build.js",
+    "dev": "node src/build.js && npx serve dist",
+    "deploy": "npm run build && gh-pages -d dist"
+  },
+  "dependencies": {
+    "marked": "^9.1.6",
+    "d3": "^7.8.5",
+    "fs-extra": "^11.1.1",
+    "gray-matter": "^4.0.3"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.0",
+    "serve": "^14.2.1"
+  }
+}
