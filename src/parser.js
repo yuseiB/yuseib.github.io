@@ -1,4 +1,4 @@
-const marked = require('marked');
+const { marked } = require('marked');
 const matter = require('gray-matter');
 
 class BacklinkRenderer extends marked.Renderer {
@@ -31,7 +31,7 @@ function parseMarkdown(content) {
     breaks: true
   });
   
-  const html = marked(markdown);
+  const html = marked.parse(markdown);
   
   return {
     frontmatter,

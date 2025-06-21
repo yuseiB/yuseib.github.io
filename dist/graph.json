@@ -1,0 +1,67 @@
+{
+  "nodes": [
+    {
+      "id": "20250621-test",
+      "title": "test",
+      "slug": "20250621-test"
+    },
+    {
+      "id": "JavaScript",
+      "title": "JavaScript",
+      "slug": "javascript"
+    },
+    {
+      "id": "Personal Projects",
+      "title": "Personal Projects",
+      "slug": "personal-projects"
+    },
+    {
+      "id": "Reading Notes",
+      "title": "Reading Notes",
+      "slug": "reading-notes"
+    },
+    {
+      "id": "Welcome",
+      "title": "Welcome to My Obsidian Weblog",
+      "slug": "welcome"
+    }
+  ],
+  "links": [
+    {
+      "source": "JavaScript",
+      "target": "Personal Projects"
+    },
+    {
+      "source": "JavaScript",
+      "target": "Reading Notes"
+    },
+    {
+      "source": "Personal Projects",
+      "target": "JavaScript"
+    },
+    {
+      "source": "Personal Projects",
+      "target": "Reading Notes"
+    },
+    {
+      "source": "Reading Notes",
+      "target": "JavaScript"
+    },
+    {
+      "source": "Reading Notes",
+      "target": "Personal Projects"
+    },
+    {
+      "source": "Welcome",
+      "target": "JavaScript"
+    },
+    {
+      "source": "Welcome",
+      "target": "Personal Projects"
+    },
+    {
+      "source": "Welcome",
+      "target": "Reading Notes"
+    }
+  ]
+}

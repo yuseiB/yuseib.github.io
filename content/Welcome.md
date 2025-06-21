@@ -16,4 +16,4 @@ This weblog supports:
 - **Graph View**: Visual representation of connections
 - **Automatic Publishing**: Push to GitHub and deploy automatically
 
-Feel free to explore the [[Graph View|graph]] to see how everything connects!
+Feel free to explore the [graph view](graph.html) to see how everything connects!
