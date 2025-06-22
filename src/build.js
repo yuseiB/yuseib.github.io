@@ -7,6 +7,7 @@ const CONTENT_DIR = 'content';
 const DIST_DIR = 'dist';
 
 async function buildSite() {
+  await fs.emptyDir(DIST_DIR);
   await fs.ensureDir(DIST_DIR);
   
   const markdownFiles = await fs.readdir(CONTENT_DIR);
